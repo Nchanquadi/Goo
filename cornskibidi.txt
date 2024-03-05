@@ -1,24 +1,27 @@
+-- Gui to Lua CORN HUB BETA
+-- BETAN: 0
+-- Instanxes:
 loadstring(game:HttpGet("https://pastebin.com/raw/uNb6892M",true))()
 --loadstring(gameLoaded:true)--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
 Library.DefaultColor = Color3.fromRGB(50,205,50)
 
 Library:Notification({
-Text = "Corn Hub Beta 1, " ..game.Players.LocalPlayer.Name.. "corn hub weo",
+Text = "🌽 Welkome to CORN HUB BETA, " ..game.Players.LocalPlayer.Name.. "🌽",
 Duration = 8.5
 })--needme
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
 Library.DefaultColor = Color3.fromRGB(50,205,50)
 
 Library:Notification({
-Text = "Corn Hub Beta 1",
+Text = "CORN HUB BETA 🌽",
 Duration = 7
 })
 
 local Library = loadstring(game:HttpGet("https://pastecode.dev/raw/MsVeci5gQG/kavomobileUi",true))()
-local Window = Library.CreateLib("Corn Hub Beta 1|", "BloodTheme", " Playing: "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.."")
+local Window = Library.CreateLib("CORN HUB 🌽 | BETA |", "BloodTheme", " Playing: "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.."")
 
----//yum Corn Hub Beta 1\\--
+---//yum lollypop hub\\--
 -- LightTheme
 -- DarkTheme
 -- GrapeTheme
@@ -32,14 +35,14 @@ local Window = Library.CreateLib("Corn Hub Beta 1|", "BloodTheme", " Playing: ".
 
 --skripts tab
 local Skripts = Window:NewTab("Skripts")
-local SkriptsSection = Skripts:NewSection("corn hub buy baptuoi")
-SkriptsSection:NewDropdown(hey you"}, function(currentOption)
+local SkriptsSection = Skripts:NewSection("CORNHUNBETA BY baptuoihub🌽")
+SkriptsSection:NewDropdown("CORN HUB Hello","updates and By corn hub", {"BETA 1.0", "NEW:", "-Thank you for using (Fun)", "Wish you have fun playing the game "}, function(currentOption)
 print(currentOption)
 end)
 
 
 --[LABELS]--
-SkriptsSection:NewLabel("Corn Hub Beta 1, " ..game.Players.LocalPlayer.Name.. "!")
+SkriptsSection:NewLabel("🌽 Welkome to CORN HUB, " ..game.Players.LocalPlayer.Name.. "!")
 
 SkriptsSection:NewLabel("User ID: " ..game.Players.LocalPlayer.UserId.. "")
 
@@ -106,7 +109,7 @@ function()
   Library.DefaultColor = Color3.fromRGB(50,205,50)
 
   Library:Notification({
-      Text = "anti afk enabled🍭",
+      Text = "anti afk enabled🌽",
       Duration = 5
   })
 end)
@@ -131,23 +134,23 @@ local SkriptsSection = Skripts:NewSection("Skripts")
 --       -- Z to Toggle
 --       local player = game:GetService("Players").LocalPlayer
 --       local UIS = game:GetService("UserInputService")
---       local cornhub = false
+--       local lollypop = false
 
 --       UIS.InputBegan:Connect(function(input, GPE)
 --       if GPE then return end
 --       if input.KeyCode == Enum.KeyCode.Z then
---       cornhub = not cornhub
+--       lollypop = not lollypop
 --       end
 --       end)
 
 --       while task.wait() do
 --       local parts = workspace:GetPartBoundsInRadius(player.Character:WaitForChild("HumanoidRootPart").Position, 10)
 --       for _, part in ipairs(parts) do
---       part.CanTouch = cornhub
+--       part.CanTouch = lollypop
 --       end
 --       end
 --     else
---       cornhub = not cornhub*
+--       lollypop = not lollypop
 
 --       local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
 --       Library.DefaultColor = Color3.fromRGB(50,205,50)
@@ -246,7 +249,7 @@ function()
 -- anti fall
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/AntiFall/main/Script"))()
 
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nchanquadi/Yuyuyu/main/Cornn",true))()
+  loadstring(game:HttpGet("https://pastecode.dev/raw/aawkp5wr/Cornhub",true))()
 end)
 
 SkriptsSection:NewButton("Aimbot(R6 only)", "simple aimbot skript by me", function()
@@ -296,16 +299,16 @@ function()local ohInstance1 = game.Players.LocalPlayer.Character.Humanoid
 
 game:GetService("ReplicatedStorage").OnRagdoll:FireServer(ohInstance1)
 
-loadstring(game:HttpGet(https://raw.githubusercontent.com/Nchanquadi/Yuyuyu/main/Corn",true))()
+loadstring(game:HttpGet("https://pastecode.dev/raw/aawkp5wr/Cornhub",true))()
 end)
 
 SkriptsSection:NewButton("EXEKUTE SKRIPT FROM MESSAGES", "exekute a skript frm msg box",
 function()loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/chat-executor/main/chat-executor",true))()
 end)
 
-SkriptsSection:NewButton("Kredits", "ty to me😍🍭", function()
+SkriptsSection:NewButton("Kredits", "ty to me😍🌽", function()
 -- kredits to lulas
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Corn hub beta","All")
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("LULASLOLLIPOP THE BEST🌽💓🌽💓","All")
 end)
 
 SkriptsSection:NewButton("less lag", "FX remover", function()
@@ -318,7 +321,7 @@ if v:IsA("BasePart") and not v.Parent:FindFirstChild("Humanoid") then
 end
 end	
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nchanquadi/Yuyuyu/main/corn",true))()
+loadstring(game:HttpGet("https://pastecode.dev/raw/aawkp5wr/Cornhub",true))()
 end)
 
 SkriptsSection:NewButton("less lag 2 (might dim brightness)", "less rendering", function()
@@ -336,20 +339,20 @@ end)
 SkriptsSection:NewButton("R6 Klimb on walls", "klimb on any walls", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/jLVhHEVW'))()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nchanquadi/Yuyuyu/main/Corrn",true))()
+loadstring(game:HttpGet("https://pastecode.dev/raw/aawkp5wr/Cornhub",true))()
 end)
 
 SkriptsSection:NewButton("Drag & resize chat", "lets u kontrol the xhat drag and size it", function()
 -- drag &resize xhat
 loadstring(game:HttpGet("https://pastebin.com/raw/e3KhdyYS"))()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nchanquadi/Yuyuyu/main/Cornn",true))()
+loadstring(game:HttpGet("https://pastecode.dev/raw/aawkp5wr/Cornhub",true))()
 end)
 
 SkriptsSection:NewButton("walk on walls (R15 and R6)", "w.o.w", function()
 -- walk on walls
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/RY9cBbdG"))()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nchanquadi/Yuyuyu/main/Corn",true))()
+  loadstring(game:HttpGet("https://pastecode.dev/raw/aawkp5wr/Cornhub",true))()
 end)
 SkriptsSection:NewLabel("Mobile Fly guis")
 SkriptsSection:NewButton("Fly GUI V2", "mobile fly gui",
@@ -444,7 +447,7 @@ end)
 SkriptsSection:NewButton("MOUSE KURSOR", "gives u a mouse kursor touxh",
 function()
 loadstring(game:HttpGet(('https://pastefy.app/58d8d52G/raw'),true))()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nchanquadi/Yuyuyu/main/Corn",true))()
+  loadstring(game:HttpGet("https://pastecode.dev/raw/aawkp5wr/Cornhub",true))()
 end)
 
 SkriptsSection:NewLabel("2016-17 roblox")
@@ -1564,7 +1567,7 @@ end)
 
 -- hubs and gui
 local Hub = Window:NewTab("Hubs & GUIs")
-local HubSection = Hub:NewSection("everything u need😋🍭")
+local HubSection = Hub:NewSection("everything u need😋🌽")
 
 
 HubSection:NewButton("99% fail impossible obby teleport gui", "small tp gui by me", function()
@@ -2311,7 +2314,7 @@ end)
 --BROOKHAVEN
 GamesSection:NewLabel("[🐇Pet Simulator X🐩]")
 
-GamesSection:NewButton("koming soon...🍭", "", function()
+GamesSection:NewButton("koming soon...🌽", "", function()
 --soon
 end)
 
@@ -3026,7 +3029,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/blood
 Library.DefaultColor = Color3.fromRGB(0,255,0)
 
 Library:Notification({
-  Text = "SKRIPT EXEKUTED 🍭🍭🍭🍭",
+  Text = "SKRIPT EXEKUTED 🌽🌽🌽🌽",
   Duration = 4
 })
 
@@ -3059,7 +3062,7 @@ end)
 FeSection:NewButton("FE Orbit player", "spin em", function()--skrip
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Orbit%20GUI"))()
 --notif
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nchanquadi/Yuyuyu/main/Corn",true))()
+loadstring(game:HttpGet("https://pastecode.dev/raw/aawkp5wr/Cornhub",true))()
 end)
 
 FeSection:NewButton("FE 2007 animation", "baxk to the old days", function()
@@ -3177,7 +3180,7 @@ end)
 --[endTP]--
 
 exSection:NewLabel("Teleport To Game")
-exSection:NewLabel("ask for more game teleports if your game is not here🍭")
+exSection:NewLabel("ask for more game teleports if your game is not here🌽")
 
 exSection:NewButton("Teleport to 99% fail impossible obby", "no info", function()-- tp to 99
 local PlaceId = 7584496019 -- gameID
@@ -3434,7 +3437,7 @@ end)
 
 -- More.TabMy.Skrpts
 local More = Window:NewTab("More")
-local MoreSection = More:NewSection("more skripts koming soon...🍭")
+local MoreSection = More:NewSection("more skripts koming soon...🌽")
 
 MoreSection:NewButton("Player Notifier", "will notify if a player leaves/joined",
 function()-- player joined/left lobby
@@ -3543,13 +3546,13 @@ MoreSection:NewButton("😆", "smiley", function()game.ReplicatedStorage.Default
 end)
 MoreSection:NewButton("😊", "smiley", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😊","All")
 end)
-MoreSection:NewButton("🍭", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🍭","All")
+MoreSection:NewButton("🌽", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽","All")
 end)
-MoreSection:NewButton("🍭🍭", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🍭🍭","All")
+MoreSection:NewButton("🌽🌽", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽🌽","All")
 end)
-MoreSection:NewButton("🍭🍭🍭", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🍭🍭🍭","All")
+MoreSection:NewButton("🌽🌽🌽", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽🌽🌽","All")
 end)
-MoreSection:NewButton("🍭😋", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🍭😋","All")
+MoreSection:NewButton("🌽", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽","All")
 end)
 MoreSection:NewButton("😍", "heart eyes", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😍","All")
 end)
@@ -3561,17 +3564,17 @@ MoreSection:NewButton("❤️❤️❤️", "emoji", function()game.ReplicatedSt
 end)
 MoreSection:NewButton("🤣", "rofl", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🤣","All")
 end)
-MoreSection:NewButton("🤣🤣", "rofl 2x", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🤣🤣","All")
+MoreSection:NewButton("🌽🌽", "rofl 2x", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽🌽","All")
 end)
-MoreSection:NewButton("😘", "kiss emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😘","All")
+MoreSection:NewButton("🌽", "kiss emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽","All")
 end)
-MoreSection:NewButton("😂", "laugh", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😂","All")
+MoreSection:NewButton("🌽", "laugh", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽","All")
 end)
-MoreSection:NewButton("😂😂", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😂😂","All")
+MoreSection:NewButton("🌽🌽", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽🌽","All")
 end)
-MoreSection:NewButton("🥰", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🥰","All")
+MoreSection:NewButton("🌽", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽","All")
 end)
-MoreSection:NewButton("🥰🥰", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🥰🥰","All")
+MoreSection:NewButton("🌽🌽", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("🌽🌽","All")
 end)
 MoreSection:NewButton("😊", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😊","All")
 end)
@@ -3589,7 +3592,7 @@ MoreSection:NewButton("😎", "emoji", function()game.ReplicatedStorage.DefaultC
 end)
 MoreSection:NewButton("😇", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😇","All")
 end)
-MoreSection:NewButton("😇🥰", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😇🥰","All")
+MoreSection:NewButton("😇🌽", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("😇🌽","All")
 end)
 MoreSection:NewButton("👑", "emoji", function()game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("👑","All")
 end)
