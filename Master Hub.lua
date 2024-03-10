@@ -664,7 +664,7 @@ local NotiFrame = Instance.new("Frame")
     
         txdlid.Parent = TitleFrame
         txdlid.Name = "TextLabel_Tap"
-        txdlid.BackgroundColor3 = Color3.fromRGB(50,50,50)
+        txdlid.BackgroundColor3 = Color3.fromRGB(6,16,158)
         txdlid.Size =UDim2.new(0, 160, 0,25 )
         txdlid.Font = Enum.Font.Code
         txdlid.Text = titel
@@ -680,7 +680,7 @@ local NotiFrame = Instance.new("Frame")
         LableFrame.Name = "LableFrame"
         LableFrame.Parent = TitleFrame
         LableFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-        LableFrame.BackgroundColor3 = Color3.fromRGB(50,50,50)
+        LableFrame.BackgroundColor3 = Color3.fromRGB(6,16,158)
         LableFrame.BorderSizePixel = 0
         LableFrame.Position =  UDim2.new(0.36, 0, 0.67,0)
         LableFrame.Size = UDim2.new(0, 260, 0,25 )
@@ -1842,8 +1842,8 @@ if tonumber(SliderBox.Text) then
 if tonumber(SliderBox.Text) <= max then
 Value = SliderBox.Text
 Title_2.Text = SliderBox.Text
-SliderCount:TweenPosition(UDim2.new(((tonumber(SliderBox.Text) or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.08, true)
-Title_2:TweenPosition(UDim2.new(((tonumber(SliderBox.Text) or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.12, true)
+SliderCount:TweenPosition(UDim2.new(((tonumber(SliderBox.Text) or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.08, true)
+Title_2:TweenPosition(UDim2.new(((tonumber(SliderBox.Text) or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.12, true)
 pcall(function()
  callback(Value)
  end)
@@ -1852,8 +1852,8 @@ if tonumber(SliderBox.Text) > max then
 SliderBox.Text = max
 Title_2.Text = max
 Value = max
-SliderCount:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.08, true)
-Title_2:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.12, true)
+SliderCount:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.08, true)
+Title_2:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.12, true)
 pcall(function()
  callback(Value)
  end)
@@ -1861,8 +1861,8 @@ end
 if tonumber(SliderBox.Text) >= min then
 Value = SliderBox.Text
 Title_2.Text = SliderBox.Text
-SliderCount:TweenPosition(UDim2.new(((tonumber(SliderBox.Text) or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.08, true)
-Title_2:TweenPosition(UDim2.new(((tonumber(SliderBox.Text) or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.12, true)
+SliderCount:TweenPosition(UDim2.new(((tonumber(SliderBox.Text) or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.08, true)
+Title_2:TweenPosition(UDim2.new(((tonumber(SliderBox.Text) or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.12, true)
 pcall(function()
  callback(Value)
  end)
@@ -1870,8 +1870,8 @@ end
 if tonumber(SliderBox.Text) < min then
 Value = min
 Title_2 = min
-SliderCount.Position = UDim2.new(((min or min) - min) / (max - min), 6,16,158)
-Title_2.Position = UDim2.new(((min or min) - min) / (max - min), 6,16,158)
+SliderCount.Position = UDim2.new(((min or min) - min) / (max - min), 0, 0, 0)
+Title_2.Position = UDim2.new(((min or min) - min) / (max - min), 0, 0, 0)
 pcall(function()
  callback(Value)
  end)
@@ -1893,8 +1893,8 @@ SliderBox.FocusLost:Connect(function(enterP)
  SliderBox.Text = min
  Title_2.Text = min
  Value = min
- SliderCount:TweenPosition(UDim2.new(((min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.08, true)
- Title_2:TweenPosition(UDim2.new(((min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.12, true)
+ SliderCount:TweenPosition(UDim2.new(((min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.08, true)
+ Title_2:TweenPosition(UDim2.new(((min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.12, true)
  pcall(function()
   callback(Value)
   end)
@@ -1903,8 +1903,8 @@ SliderBox.FocusLost:Connect(function(enterP)
  Value = max
  SliderBox.Text = max
  Title_2.Text = max
- SliderCount:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.08, true)
- Title_2:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.12, true)
+ SliderCount:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.08, true)
+ Title_2:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.12, true)
  pcall(function()
   callback(Value)
   end)
@@ -1915,8 +1915,8 @@ SliderBox.FocusLost:Connect(function(enterP)
  SliderBox.Text = min
  Title_2.Text = min
  Value = min
- SliderCount:TweenPosition(UDim2.new(((min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.08, true)
- Title_2:TweenPosition(UDim2.new(((min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.12, true)
+ SliderCount:TweenPosition(UDim2.new(((min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.08, true)
+ Title_2:TweenPosition(UDim2.new(((min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.12, true)
  pcall(function()
   callback(Value)
   end)
@@ -1928,8 +1928,8 @@ SliderBox.FocusLost:Connect(function(enterP)
  SliderBox.Text = max
  Title_2.Text = max
  Value = max
- SliderCount:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.08, true)
- Title_2:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.12, true)
+ SliderCount:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.08, true)
+ Title_2:TweenPosition(UDim2.new(((max or min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.12, true)
  pcall(function()
   callback(Value)
   end)
@@ -1940,8 +1940,8 @@ SliderBox.FocusLost:Connect(function(enterP)
  SliderBox.Text = min
  Title_2.Text = min
  Value = min
- SliderCount.Position = UDim2.new(((min) - min) / (max - min), 6,16,158)
- Title_2.Position = UDim2.new(((min) - min) / (max - min), 6,16,158)
+ SliderCount.Position = UDim2.new(((min) - min) / (max - min), 0, 0, 0)
+ Title_2.Position = UDim2.new(((min) - min) / (max - min), 0, 0, 0)
  pcall(function()
   callback(Value)
   end)
@@ -1952,8 +1952,8 @@ SliderBox.FocusLost:Connect(function(enterP)
  SliderBox.Text = min
  Title_2.Text = min
  Value = min
- SliderCount:TweenPosition(UDim2.new(((min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.08, true)
- Title_2:TweenPosition(UDim2.new(((min) - min) / (max - min), 6,16,158), "InOut", "Linear", 0.12, true)
+ SliderCount:TweenPosition(UDim2.new(((min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.08, true)
+ Title_2:TweenPosition(UDim2.new(((min) - min) / (max - min), 0, 0, 0), "InOut", "Linear", 0.12, true)
  pcall(function()
   callback(Value)
   end)
@@ -4280,7 +4280,7 @@ spawn(function()
    if _G.Auto_Farm_Ectoplasm and StartMagnetEctoplasm and string.find(v.Name, "Ship") and (v.HumanoidRootPart.Position - PosMonEctoplasm.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonEctoplasm
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -4303,7 +4303,7 @@ spawn(function()
   EquipWeapon(_G.Select_Weapon)
   PosMonEctoplasm = v.HumanoidRootPart.CFrame
   v.HumanoidRootPart.CanCollide = false
-  v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+  v.HumanoidRootPart.Size = Vector3.new(6,16,158)
   topos(v.HumanoidRootPart.CFrame * MethodFarm)
   StartMagnetEctoplasm = true
   game:GetService'VirtualUser':CaptureController()
@@ -4335,7 +4335,7 @@ spawn(function()
    if _G.Auto_Farm_Bone and StartMagnetBoneMon and (v.Name == "Reborn Skeleton" or v.Name == "Living Zombie" or v.Name == "Demonic Soul" or v.Name == "Posessed Mummy") and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -4442,7 +4442,7 @@ spawn(function()
 				if _G.Auto_Farm_Level and MasteryBFStartMagnetActive and v.Name == Ms and (v.HumanoidRootPart.Position - PosMonMasteryFruit.Position).magnitude <= 350 then
 					v.HumanoidRootPart.CFrame = PosMonMasteryFruit
 					v.HumanoidRootPart.CanCollide = false
-					v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+					v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 					if v.Humanoid:FindFirstChild("Animator") then
 						v.Humanoid.Animator:Destroy()
 					end
@@ -4460,7 +4460,7 @@ spawn(function()
 				if _G.Auto_Farm_Level and MasteryGunStartMagnetActive and v.Name == Ms and (v.HumanoidRootPart.Position - PosMonMasteryGun.Position).magnitude <= 350 then
 					v.HumanoidRootPart.CFrame = PosMonMasteryGun
 					v.HumanoidRootPart.CanCollide = false
-					v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+					v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 					if v.Humanoid:FindFirstChild("Animator") then
 						v.Humanoid.Animator:Destroy()
 					end
@@ -4503,7 +4503,7 @@ spawn(function()
 												v.HumanoidRootPart.CanCollide = false
 												v.Humanoid.WalkSpeed = 0
 												v.Head.CanCollide = false
-												v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+												v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 												StartMagnet = true
 												topos(v.HumanoidRootPart.CFrame * MethodFarm)
 												game:GetService'VirtualUser':CaptureController()
@@ -4551,7 +4551,7 @@ spawn(function()
 													v.HumanoidRootPart.CanCollide = false
 													v.Humanoid.WalkSpeed = 0
 													v.Head.CanCollide = false
-													v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+													v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 													StartMagnet = true
 													topos(v.HumanoidRootPart.CFrame * MethodFarm)
 													game:GetService'VirtualUser':CaptureController()
@@ -4597,7 +4597,7 @@ spawn(function()
 											v.HumanoidRootPart.CanCollide = false
 											v.Humanoid.WalkSpeed = 0
 											v.Head.CanCollide = false
-											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 											StartMagnet = true
 											topos(v.HumanoidRootPart.CFrame * MethodFarm)
 											game:GetService'VirtualUser':CaptureController()
@@ -4712,7 +4712,7 @@ spawn(function()
   AutoHaki()
   EquipWeapon(_G.Select_Weapon)
   v.HumanoidRootPart.CFrame = OldCFrameThird
-  v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+  v.HumanoidRootPart.Size = Vector3.new(6,16,158)
   v.HumanoidRootPart.CanCollide = false
   v.Humanoid.WalkSpeed = 0
   topos(v.HumanoidRootPart.CFrame * MethodFarm)
@@ -6169,7 +6169,7 @@ end)
     v.Humanoid.WalkSpeed = 0
     v.HumanoidRootPart.CanCollide = false
     v.Head.CanCollide = false
-    v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+    v.HumanoidRootPart.Size = Vector3.new(6,16,158)
     topos(v.HumanoidRootPart.CFrame * MethodFarm)
     game:GetService'VirtualUser':CaptureController()
     game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
@@ -6553,7 +6553,7 @@ end
 					if _G.Auto_Open_Dough_Dungeon and StartCakeStartMagnet and (v.Name == "Cookie Crafter" or v.Name == "Cake Guard" or v.Name == "Baking Staff" or v.Name == "Head Baker") and (v.HumanoidRootPart.Position - POSCAKE.Position).magnitude <= 300 then
 						v.HumanoidRootPart.CFrame = POSCAKE
 						v.HumanoidRootPart.CanCollide = false
-						v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+						v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 						if v.Humanoid:FindFirstChild("Animator") then
 							v.Humanoid.Animator:Destroy()
 						end
@@ -6571,7 +6571,7 @@ end
 					if _G.Auto_Cake_Prince and StartCakeStartMagnet and (v.Name == "Cookie Crafter" or v.Name == "Cake Guard" or v.Name == "Baking Staff" or v.Name == "Head Baker") and (v.HumanoidRootPart.Position - POSCAKE.Position).magnitude <= 300 then
 						v.HumanoidRootPart.CFrame = POSCAKE
 						v.HumanoidRootPart.CanCollide = false
-						v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+						v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 						if v.Humanoid:FindFirstChild("Animator") then
 							v.Humanoid.Animator:Destroy()
 						end
@@ -6650,7 +6650,7 @@ spawn(function()
    if _G.Cacao and StartMagnetBoneMon and (v.Name == "Cocoa Warrior" or v.Name == "Chocolate Bar Battler" or "Sweet Thief" or "Candy Rebel")  and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -6724,7 +6724,7 @@ spawn(function()
    if _G.vayrong and StartMagnetBoneMon0 and (v.Name == "Dragon Crew Archer" or v.Name == "Dragon Crew Warrior" ) and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -6796,7 +6796,7 @@ spawn(function()
    if _G.duoica and StartMagnetBoneMon0 and (v.Name == "Fishman Captain" or v.Name == "Fishman Raider" ) and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -6866,7 +6866,7 @@ spawn(function()
    if _G.sungtegiac and StartMagnetBoneMon0 and (v.Name == "Forest Pirate" or v.Name == "Mythological Pirate" ) and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -6982,7 +6982,7 @@ spawn(function()
    if _G.candy and StartMagnetBoneMon0 and (v.Name == "Isle Outlaw" or v.Name == "Island Boy" or v.Name == "Sun-kissed Warrior" or v.Name == "Isle Champion") and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 300 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -7045,7 +7045,7 @@ spawn(function()
    if _G.thuocsung and StartMagnetBoneMon0 and (v.Name == "Pirate Millionaire" or v.Name == "Pistol Billionaire" ) and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -7117,7 +7117,7 @@ spawn(function()
    if _G.nuocmat and StartMagnetBoneMon0 and (v.Name == "Sea Soldier" or v.Name == "Water Fighter" ) and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -7188,7 +7188,7 @@ spawn(function()
    if _G.magma and StartMagnetBoneMon0 and (v.Name == "Lava Pirate" or v.Name == "Magma Ninja" ) and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -7265,7 +7265,7 @@ spawn(function()
    if _G.rangnanh and StartMagnetBoneMon0 and (v.Name == "Vampire") and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -7333,7 +7333,7 @@ spawn(function()
    if _G.chatpong and StartMagnetBoneMon0 and (v.Name == "Factory Staff") and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -7404,7 +7404,7 @@ spawn(function()
    if _G.shinapo and StartMagnetBoneMon0 and (v.Name == "Mercenary") and (v.HumanoidRootPart.Position - PosMonBone.Position).magnitude <= 350 then
    v.HumanoidRootPart.CFrame = PosMonBone
    v.HumanoidRootPart.CanCollide = false
-   v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+   v.HumanoidRootPart.Size = Vector3.new(6,16,158)
    if v.Humanoid:FindFirstChild("Animator") then
    v.Humanoid.Animator:Destroy()
    end
@@ -7785,7 +7785,7 @@ end)
 												EquipWeapon(_G.Select_Weapon)
 												v.HumanoidRootPart.CanCollide = false
 												v.Humanoid.WalkSpeed = 0
-												v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+												v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 												topos(v.HumanoidRootPart.CFrame * MethodFarm)
 												game:GetService("VirtualUser"):CaptureController()
 												game:GetService("VirtualUser"):Button1Down(Vector2.new(1280,672))
@@ -8062,7 +8062,7 @@ Weapon:Toggle("Auto Saber",_G.AutoSaber,function(value)
                                         EquipWeapon(_G.SelectWeapon)
                                         v.HumanoidRootPart.CanCollide = false
                                         v.Humanoid.WalkSpeed = 0
-                                        v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+                                        v.HumanoidRootPart.Size = Vector3.new(6,16,158)
                                         topos(v.HumanoidRootPart.CFrame * MethodFarm)                         
                                         game:GetService("VirtualUser"):CaptureController()
                                         game:GetService("VirtualUser"):Button1Down(Vector2.new(1280,672))
@@ -8153,7 +8153,7 @@ spawn(function()
 					if _G.mudautr and AutoBartiloBring and v.Name == "Swan Pirate" and (v.HumanoidRootPart.Position - PosMonBarto.Position).magnitude <= 350 then
 						v.HumanoidRootPart.CFrame = PosMonBarto
 						v.HumanoidRootPart.CanCollide = false
-						v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+						v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 						if v.Humanoid:FindFirstChild("Animator") then
 							v.Humanoid.Animator:Destroy()
 						end
@@ -8179,7 +8179,7 @@ spawn(function()
 												EquipWeapon(_G.Select_Weapon)
 												v.HumanoidRootPart.Transparency = 1
 												v.HumanoidRootPart.CanCollide = false
-												v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+												v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 												topos(v.HumanoidRootPart.CFrame * MethodFarm)													
 												PosMonBarto =  v.HumanoidRootPart.CFrame
 												game:GetService'VirtualUser':CaptureController()
@@ -8209,7 +8209,7 @@ spawn(function()
 										EquipWeapon(_G.Select_Weapon)
 										v.HumanoidRootPart.Transparency = 1
 										v.HumanoidRootPart.CanCollide = false
-										v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+										v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 										v.HumanoidRootPart.CFrame = OldCFrameBartlio
 										topos(v.HumanoidRootPart.CFrame * MethodFarm)
 										game:GetService'VirtualUser':CaptureController()
@@ -8259,7 +8259,7 @@ spawn(function()
 					if _G.mudautr and StartEvoStartMagnet and v.Name == "Swan Pirate" and (v.HumanoidRootPart.Position - PosMonEvo.Position).magnitude <= 350 then
 						v.HumanoidRootPart.CFrame = PosMonEvo
 						v.HumanoidRootPart.CanCollide = false
-						v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+						v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 						if v.Humanoid:FindFirstChild("Animator") then
 							v.Humanoid.Animator:Destroy()
 						end
@@ -8296,7 +8296,7 @@ spawn(function()
 													EquipWeapon(_G.Select_Weapon)
 													topos(v.HumanoidRootPart.CFrame * MethodFarm)
 													v.HumanoidRootPart.CanCollide = false
-													v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+													v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 													game:GetService'VirtualUser':CaptureController()
 													game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
 													PosMonEvo = v.HumanoidRootPart.CFrame
@@ -8462,7 +8462,7 @@ end)
 					if _G.Auto_Rengoku and StartRengokuStartMagnet and (v.Name == "Snow Lurker" or v.Name == "Arctic Warrior") and (v.HumanoidRootPart.Position - RengokuMon.Position).magnitude <= 350 then
 						v.HumanoidRootPart.CFrame = RengokuMon
 						v.HumanoidRootPart.CanCollide = false
-						v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+						v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 						if v.Humanoid:FindFirstChild("Animator") then
 							v.Humanoid.Animator:Destroy()
 						end
@@ -8487,7 +8487,7 @@ end)
 									AutoHaki()
 									EquipWeapon(_G.Select_Weapon)
 									v.HumanoidRootPart.CanCollide = false
-									v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+									v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 									RengokuMon = v.HumanoidRootPart.CFrame
 									topos(v.HumanoidRootPart.CFrame * MethodFarm)
 									game:GetService'VirtualUser':CaptureController()
@@ -8624,7 +8624,7 @@ end)
 											AutoHaki()
 											EquipWeapon(_G.Select_Weapon)
 											v.HumanoidRootPart.CanCollide = false
-											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 											topos(v.HumanoidRootPart.CFrame * MethodFarm)
 											game:GetService'VirtualUser':CaptureController()
 											game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
@@ -8727,7 +8727,7 @@ end)
 													EquipWeapon(_G.Select_Weapon)
 													v.HumanoidRootPart.CanCollide = false
 													v.Humanoid.WalkSpeed = 0
-													v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+													v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 													topos(v.HumanoidRootPart.CFrame * MethodFarm)
 													game:GetService("VirtualUser"):CaptureController()
 													game:GetService("VirtualUser"):Button1Down(Vector2.new(1280,672))
@@ -8810,7 +8810,7 @@ end)
 											topos(v.HumanoidRootPart.CFrame * MethodFarm)
 											v.HumanoidRootPart.CanCollide = false
 											v.HumanoidRootPart.CFrame = OldCFrameRainbow
-											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 											game:GetService'VirtualUser':CaptureController()
 											game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
 											sethiddenproperty(game:GetService("Players").LocalPlayer,"SimulationRadius",math.huge)
@@ -8837,7 +8837,7 @@ end)
 											topos(v.HumanoidRootPart.CFrame * MethodFarm)
 											v.HumanoidRootPart.CanCollide = false
 											v.HumanoidRootPart.CFrame = OldCFrameRainbow
-											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 											game:GetService'VirtualUser':CaptureController()
 											game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
 											sethiddenproperty(game:GetService("Players").LocalPlayer,"SimulationRadius",math.huge)
@@ -8863,7 +8863,7 @@ end)
 											EquipWeapon(_G.Select_Weapon)
 											topos(v.HumanoidRootPart.CFrame * MethodFarm)
 											v.HumanoidRootPart.CanCollide = false
-											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 											v.HumanoidRootPart.CFrame = OldCFrameRainbow
 											game:GetService'VirtualUser':CaptureController()
 											game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
@@ -8890,7 +8890,7 @@ end)
 											EquipWeapon(_G.Select_Weapon)
 											topos(v.HumanoidRootPart.CFrame * MethodFarm)
 											v.HumanoidRootPart.CanCollide = false
-											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 											v.HumanoidRootPart.CFrame = OldCFrameRainbow
 											game:GetService'VirtualUser':CaptureController()
 											game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
@@ -8917,7 +8917,7 @@ end)
 											EquipWeapon(_G.Select_Weapon)
 											topos(v.HumanoidRootPart.CFrame * MethodFarm)
 											v.HumanoidRootPart.CanCollide = false
-											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 											v.HumanoidRootPart.CFrame = OldCFrameRainbow
 											game:GetService'VirtualUser':CaptureController()
 											game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
@@ -9157,7 +9157,7 @@ Weapon:Toggle("Tự Động Lấy Haki quan sát V2",_G.AutoObservationHakiV2
 										end
 										v.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
 										v.HumanoidRootPart.CanCollide = false
-										v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+										v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 										game:GetService'VirtualUser':CaptureController()
 										game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
 										StatrMagnet = true
@@ -9186,7 +9186,7 @@ Weapon:Toggle("Tự Động Lấy Haki quan sát V2",_G.AutoObservationHakiV2
 										end
 										v.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
 										v.HumanoidRootPart.CanCollide = false
-										v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+										v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 										game:GetService'VirtualUser':CaptureController()
 										game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
 									until _G.AutoObservationHakiV2 == false or v.Humanoid.Health <= 0
@@ -9264,7 +9264,7 @@ Weapon:Toggle("Tự Động Lấy Haki quan sát V2",_G.AutoObservationHakiV2
 						if v.Name == "Forest Pirate" and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 then
 							if v.Name == "Forest Pirate" then
 								v.HumanoidRootPart.CanCollide = false
-								v.HumanoidRootPart.Size = Vector3.new(50, 50, 50)
+								v.HumanoidRootPart.Size = Vector3.new(6, 16, 158)
 								v.HumanoidRootPart.CFrame = PosHee
 							end
 						end
@@ -9334,7 +9334,7 @@ end)
 					if _G.Auto_Musketeer_Hat and StartMagnetMusketeerhat and v.Name == "Forest Pirate" and (v.HumanoidRootPart.Position - MusketeerHatMon.Position).magnitude <= 350 then
 						v.HumanoidRootPart.CFrame = MusketeerHatMon
 						v.HumanoidRootPart.CanCollide = false
-						v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+						v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 						if v.Humanoid:FindFirstChild("Animator") then
 							v.Humanoid.Animator:Destroy()
 						end
@@ -9358,7 +9358,7 @@ end)
 											pcall(function()
 												AutoHaki()
 												EquipWeapon(_G.Select_Weapon)
-												v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+												v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 												topos(v.HumanoidRootPart.CFrame * MethodFarm)
 												v.HumanoidRootPart.CanCollide = false
 												game:GetService'VirtualUser':CaptureController()
@@ -9392,7 +9392,7 @@ end)
 												AutoHaki()
 												EquipWeapon(_G.Select_Weapon)
 												v.HumanoidRootPart.CanCollide = false
-												v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+												v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 												topos(v.HumanoidRootPart.CFrame * MethodFarm)
 												v.HumanoidRootPart.CanCollide = false
 												v.HumanoidRootPart.CFrame = OldCFrameElephant
@@ -9624,7 +9624,7 @@ spawn(function()
 											v.Head.CanCollide = false
 											v.Humanoid.WalkSpeed = 0
 											v.HumanoidRootPart.CanCollide = false
-											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 											topos(v.HumanoidRootPart.CFrame * MethodFarm)
 											game:GetService'VirtualUser':CaptureController()
 											game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
@@ -9709,7 +9709,7 @@ spawn(function()
 											v.Head.CanCollide = false
 											v.Humanoid.WalkSpeed = 0
 											v.HumanoidRootPart.CanCollide = false
-											v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+											v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 											topos(v.HumanoidRootPart.CFrame * MethodFarm)
 											game:GetService'VirtualUser':CaptureController()
 											game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
@@ -11557,7 +11557,7 @@ spawn(function()
 								AutoHaki()
 								EquipWeapon(_G.Select_Weapon)
 								v.HumanoidRootPart.CanCollide = false
-								v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+								v.HumanoidRootPart.Size = Vector3.new(6,16,158)
 								topos(v.HumanoidRootPart.CFrame * CFrame.new(0,30,0))
 								game:GetService'VirtualUser':CaptureController()
 								game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
