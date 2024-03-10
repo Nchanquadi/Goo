@@ -2030,7 +2030,7 @@ end
  AHEHE.Size = UDim2.new(0, 290, 0, 5)
  AHEHE.Font = Enum.Font.SourceSans
  AHEHE.Text = ""
- AHEHE.TextColor3 = Color3.fromRGB(0, 0, 0)
+ AHEHE.TextColor3 = Color3.fromRGB(6,16,158)
  AHEHE.TextSize = 14.000
  
  bar.Name = "bar"
