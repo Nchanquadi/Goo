@@ -764,7 +764,7 @@ local NotiFrame = Instance.new("Frame")
  Main.Parent = ZENHUB
  Main.ClipsDescendants = true
  Main.AnchorPoint = Vector2.new(0.5,0.5)
- Main.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+ Main.BackgroundColor3 = Color3.fromRGB(6, 16, 158)
  Main.Position = UDim2.new(0.5, 0, 0.5, 0)
  Main.Size = UDim2.new(0, 0, 0, 0)
  
