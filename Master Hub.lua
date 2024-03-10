@@ -1134,7 +1134,7 @@ NotificationTitle.Size = UDim2.new(0, 400, 0, 25)
 NotificationTitle.ZIndex = 3
 NotificationTitle.Font = Enum.Font.Gotham
 NotificationTitle.Text = "Notification"
-NotificationTitle.TextColor3 = Color3.fromRGB(255, 0, 0)
+NotificationTitle.TextColor3 = Color3.fromRGB(15, 170, 217)
 NotificationTitle.TextSize = 22.000
 
 Line.Name = "Line"
@@ -12099,7 +12099,7 @@ end)
   if v.Team == game.Players.LocalPlayer.Team then
   name.TextColor3 = Color3.new(0,255,0)
   else
-   name.TextColor3 = Color3.new(255,0,0)
+   name.TextColor3 = Color3.new(15,170,217)
   end
   else
    v.Character.Head['NameEsp'..Number].TextLabel.Text = (v.Name ..'  '.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Character.Head.Position).Magnitude/3) ..' M\nHealth : ' .. round(v.Character.Humanoid.Health*100/v.Character.Humanoid.MaxHealth) .. '%')
@@ -12215,7 +12215,7 @@ end
   name.TextYAlignment = 'Top'
   name.BackgroundTransparency = 1
   name.TextStrokeTransparency = 0.5
-  name.TextColor3 = Color3.fromRGB(255, 0, 0)
+  name.TextColor3 = Color3.fromRGB(15, 170, 217)
   name.Text = (v.Name ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' M')
   else
    v.Handle['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Handle.Position).Magnitude/3) ..' M')
@@ -12250,14 +12250,14 @@ end
   name.TextYAlignment = 'Top'
   name.BackgroundTransparency = 1
   name.TextStrokeTransparency = 0.5
-  name.TextColor3 = Color3.fromRGB(255, 0, 0)
+  name.TextColor3 = Color3.fromRGB(15, 170, 217)
   if v.Name == "Flower1" then
   name.Text = ("Blue Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
-  name.TextColor3 = Color3.fromRGB(255, 0, 0)
+  name.TextColor3 = Color3.fromRGB(15, 170, 217)
   end
   if v.Name == "Flower2" then
   name.Text = ("Red Flower" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
-  name.TextColor3 = Color3.fromRGB(255, 0, 0)
+  name.TextColor3 = Color3.fromRGB(15, 170, 217)
   end
   else
    v['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
@@ -12323,7 +12323,7 @@ if World2 then
 							if v.Team == game.Players.LocalPlayer.Team then
 								name.TextColor3 = Color3.new(0,255,0)
 							else
-								name.TextColor3 = Color3.new(255,0,0)
+								name.TextColor3 = Color3.new(15,170,217)
 							end
 						else
 							v.Character.Head['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Character.Head.Position).Magnitude/3) ..' M')
