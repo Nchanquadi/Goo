@@ -810,7 +810,7 @@ local NotiFrame = Instance.new("Frame")
  Name.TextSize = 16.000
  
  local Hub = Instance.new("TextLabel")
- Hub.Name = "Beta"
+ Hub.Name = "Hub"
  Hub.Parent = Top
  Hub.BackgroundColor3 = Color3.fromRGB(224,224,224)
  Hub.BackgroundTransparency = 1.000
