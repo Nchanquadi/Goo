@@ -810,15 +810,15 @@ local NotiFrame = Instance.new("Frame")
  Name.TextSize = 16.000
  
  local Hub = Instance.new("TextLabel")
- Hub.Name = "Hub"
+ Hub.Name = "Beta"
  Hub.Parent = Top
  Hub.BackgroundColor3 = Color3.fromRGB(224,224,224)
  Hub.BackgroundTransparency = 1.000
  Hub.Position = UDim2.new(0, 78, 0, 0)
  Hub.Size = UDim2.new(0, 81, 0, 27)
  Hub.Font = Enum.Font.Code
- Hub.Text = "Hub"
- Hub.TextColor3 = Color3.fromRGB(255, 47, 172)
+ Hub.Text = "Beta"
+ Hub.TextColor3 = Color3.fromRGB(245, 156, 32)
  Hub.TextSize = 16.000
 
  
@@ -4270,7 +4270,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("Master","")
+local Library = Update:Window("ThanhJD","")
 ------------------------------------------
 
 spawn(function()
