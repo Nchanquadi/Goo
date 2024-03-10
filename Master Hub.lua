@@ -275,7 +275,7 @@ ImageButton.Parent = ScreenGui
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0.0627121851, 0, 0.107579626, 0)
-ImageButton.Image = "rbxassetid://11816162894"
+ImageButton.Image = "rbxassetid://16576205534"
 
 UICorner.CornerRadius = UDim.new(0, 30)
 UICorner.Parent = ImageButton
@@ -13208,7 +13208,7 @@ ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.396834195, 0, 0.567307711, 0)
 ImageLabel.Size = UDim2.new(0, 107, 0, 82)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=14487530170"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=16576205534"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
 UICorner.CornerRadius = UDim.new(0, 15)
@@ -13318,7 +13318,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.787, 0,-0.03, 0)
 TextLabel.Size = UDim2.new(0.258796811, 0, 0.0200803205, 0)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Master Hub"
+TextLabel.Text = "Thanh JD HUB"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 29.000
 TextLabel.TextTransparency = 0.030
@@ -13667,7 +13667,7 @@ ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.345110148, 0, 0.503166199, 0)
 ImageLabel.Size = UDim2.new(0.188844323, 0, 0.176107258, 0)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=14487530170"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=16576205534"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
 UICorner.CornerRadius = UDim.new(0, 15)
@@ -13772,7 +13772,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.787, 0,-0.03, 0)
 TextLabel.Size = UDim2.new(0.258796811, 0, 0.0200803205, 0)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Master Hub"
+TextLabel.Text = "Thanh JD HUB"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 29.000
 TextLabel.TextTransparency = 0.030
@@ -14203,8 +14203,5 @@ local NotiFrame = Instance.new("Frame")
 		)
 	end  
 if  game.Players.LocalPlayer.Name == "JayceGuys019" or  game.Players.LocalPlayer.Name == "thanthanh878" then
-DiscordLib:Notification("Thông Báo" , "Chào Bạn, Mình Là Admin Bản Master Hub" , 6 ,11816162894)
-    DiscordLib:Notification("Thông Báo" , "Cảm Ơn Bạn Đã Sử Dụng Master Hub" , 8,11816162894)
-            DiscordLib:Notification("Thông Báo" , "Chúc Bạn Có Nhiều Sức Khỏe" , 9 ,11816162894) 
-DiscordLib:Notification("Thông Báo" , "Năm Mới Vui Vẻ Và Hạnh Phúc" , 13 ,11816162894)
+DiscordLib:Notification("Thông Báo" , "cảm ơn bạn đã sử dụng hack của tôi" , 13 ,11816162894)
 end
