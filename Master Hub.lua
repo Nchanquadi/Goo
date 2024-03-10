@@ -405,7 +405,7 @@ local NotiFrame = Instance.new("Frame")
 
 		TitleFrame.Name = "TitleFrame"
 		TitleFrame.Parent = NotiFrame
-		TitleFrame.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		TitleFrame.BackgroundColor3 = Color3.fromRGB(39,168,162)
 		TitleFrame.Size = UDim2.new(0, 0, 0, 0)
 
 		local Main_UiStroke = Instance.new("UIStroke")
@@ -585,13 +585,13 @@ local NotiFrame = Instance.new("Frame")
   end
  )
  end
- _G.BGColor_1 = Color3.fromRGB(18,222,212)
+ _G.BGColor_1 = Color3.fromRGB(39,168,162)
  _G.BGColor_2 = Color3.fromRGB(20, 20, 20)
  _G.Color = Color3.fromRGB(255, 49, 52)
  _G.WindowBackgroundColor = Color3.fromRGB(12,12,12)
  _G.BackgroundItemColor = Color3.fromRGB(20, 20, 20)
- _G.TabWindowColor = Color3.fromRGB(18, 222, 212)
- _G.ContainerColor = Color3.fromRGB(18, 222, 212)
+ _G.TabWindowColor = Color3.fromRGB(39, 168, 162)
+ _G.ContainerColor = Color3.fromRGB(39, 168, 162)
  _G.TitleTextColor = Color3.fromRGB(150, 150, 150)
  _G.ImageColor = Color3.fromRGB(150, 150, 150)
  _G.LineThemeColor = Color3.fromRGB(150, 150, 150)
@@ -618,7 +618,7 @@ local NotiFrame = Instance.new("Frame")
     NotiFrame.Name = "NotiFrame"
     NotiFrame.Parent = Balaraja
     NotiFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-    NotiFrame.BackgroundColor3 = Color3.fromRGB(35,35,35)
+    NotiFrame.BackgroundColor3 = Color3.fromRGB(39,168,162)
     NotiFrame.BorderSizePixel = 0
     NotiFrame.Position =  UDim2.new(1, -210, 1, 100)
     NotiFrame.Size = UDim2.new(0, 400, 0, 500)
@@ -635,7 +635,7 @@ local NotiFrame = Instance.new("Frame")
         TitleFrame.Name = "TitleFrame"
         TitleFrame.Parent = NotiFrame
         TitleFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-        TitleFrame.BackgroundColor3 = Color3.fromRGB(35,35,35)
+        TitleFrame.BackgroundColor3 = Color3.fromRGB(39,168,162)
         TitleFrame.BorderSizePixel = 0
         TitleFrame.Position =  UDim2.new(0.5, 0, 0.5,0)
         TitleFrame.Size = UDim2.new(0, 0, 0, 0)
@@ -668,7 +668,7 @@ local NotiFrame = Instance.new("Frame")
         txdlid.Size =UDim2.new(0, 160, 0,25 )
         txdlid.Font = Enum.Font.Code
         txdlid.Text = titel
-        txdlid.TextColor3 = Color3.fromRGB(18,222,212)
+        txdlid.TextColor3 = Color3.fromRGB(39,168,162)
         txdlid.TextSize = 17.000
         txdlid.AnchorPoint = Vector2.new(0.5, 0.5)
         txdlid.Position = UDim2.new(0.23, 0, 0.3, 0)
@@ -691,7 +691,7 @@ local NotiFrame = Instance.new("Frame")
     
         TextNoti.Parent = LableFrame
         TextNoti.Name = "TextLabel_Tap"
-        TextNoti.BackgroundColor3 = Color3.fromRGB(18,222,212)
+        TextNoti.BackgroundColor3 = Color3.fromRGB(39,168,162)
         TextNoti.Size =UDim2.new(0, 260, 0,25 )
         TextNoti.Font = Enum.Font.Code
         TextNoti.Text = text
@@ -879,7 +879,7 @@ local NotiFrame = Instance.new("Frame")
  local Page = Instance.new("Frame")
  Page.Name = "Page"
  Page.Parent = Main
- Page.BackgroundColor3 = Color3.fromRGB(18,222,212)
+ Page.BackgroundColor3 = Color3.fromRGB(39,168,162)
  Page.Position = UDim2.new(0.295726834, 0, 0.144050003, 0)
  Page.Size = UDim2.new(0, 330, 0, 280)
  
@@ -1283,7 +1283,7 @@ end
  
  CheckFrame2.Name = "CheckFrame2"
  CheckFrame2.Parent = CheckFrame
- CheckFrame2.BackgroundColor3 = Color3.fromRGB(18,222,212)
+ CheckFrame2.BackgroundColor3 = Color3.fromRGB(39,168,162)
  CheckFrame2.BackgroundTransparency = 1
  CheckFrame2.BorderSizePixel = 0
  CheckFrame2.Position = UDim2.new(0, 3, 0, 0)
@@ -1393,7 +1393,7 @@ end
  
  Dropdown.Name = "Dropdown"
  Dropdown.Parent = MainFramePage
- Dropdown.BackgroundColor3 = Color3.fromRGB(18,222,212)
+ Dropdown.BackgroundColor3 = Color3.fromRGB(39,168,162)
  Dropdown.BackgroundTransparency = 1
  Dropdown.ClipsDescendants = true
  Dropdown.Size = UDim2.new(0, 310, 0, 31)
@@ -1626,14 +1626,14 @@ local UICorner_3 = Instance.new("UICorner")
 -- Prop --
 SliderFrame.Name = slidertitle or "SliderFrame"
 SliderFrame.Parent = MainFramePage
-SliderFrame.BackgroundColor3 = Color3.fromRGB(18,222,212)
+SliderFrame.BackgroundColor3 = Color3.fromRGB(39,168,162)
 SliderFrame.BackgroundTransparency = 1.000
 SliderFrame.BorderSizePixel = 0
 SliderFrame.Size = UDim2.new(0, 300, 0, 55)
 
 SliderFrame_2.Name = "SliderFrame_2"
 SliderFrame_2.Parent = SliderFrame
-SliderFrame_2.BackgroundColor3 = Color3.fromRGB(18,222,212)
+SliderFrame_2.BackgroundColor3 = Color3.fromRGB(39,168,162)
 SliderFrame_2.BackgroundTransparency = 1
 SliderFrame_2.BorderSizePixel = 0
 SliderFrame_2.Position = UDim2.new(0, 3, 0, 0)
@@ -1995,7 +1995,7 @@ end
  sliderr.Name = "sliderr"
  sliderr.Parent = Slider
  sliderr.BackgroundTransparency = 0
- sliderr.BackgroundColor3 = Color3.fromRGB(18,222,212)
+ sliderr.BackgroundColor3 = Color3.fromRGB(39,168,162)
  sliderr.Position = UDim2.new(0, 1, 0, 1)
  sliderr.Size = UDim2.new(0, 308, 0, 49)
  
@@ -2173,7 +2173,7 @@ end
  
  Textboxx.Name = "Textboxx"
  Textboxx.Parent = Textbox
- Textboxx.BackgroundColor3 = Color3.fromRGB(18,222,212)
+ Textboxx.BackgroundColor3 = Color3.fromRGB(39,168,162)
  Textboxx.Position = UDim2.new(0, 1, 0, 1)
  Textboxx.Size = UDim2.new(0, 310, 0, 29)
  
@@ -5470,7 +5470,7 @@ end)
 
 		TitleFrame.Name = "TitleFrame"
 		TitleFrame.Parent = NotiFrame
-		TitleFrame.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		TitleFrame.BackgroundColor3 = Color3.fromRGB(39,168,162)
 		TitleFrame.Size = UDim2.new(0, 0, 0, 0)
 
 		local Main_UiStroke = Instance.new("UIStroke")
@@ -10044,7 +10044,7 @@ local NotiFrame = Instance.new("Frame")
 
 		TitleFrame.Name = "TitleFrame"
 		TitleFrame.Parent = NotiFrame
-		TitleFrame.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		TitleFrame.BackgroundColor3 = Color3.fromRGB(39,168,162)
 		TitleFrame.Size = UDim2.new(0, 0, 0, 0)
 
 		local Main_UiStroke = Instance.new("UIStroke")
@@ -11706,7 +11706,7 @@ local NotiFrame = Instance.new("Frame")
 
 		TitleFrame.Name = "TitleFrame"
 		TitleFrame.Parent = NotiFrame
-		TitleFrame.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		TitleFrame.BackgroundColor3 = Color3.fromRGB(39,168,162)
 		TitleFrame.Size = UDim2.new(0, 0, 0, 0)
 
 		local Main_UiStroke = Instance.new("UIStroke")
@@ -14077,7 +14077,7 @@ local NotiFrame = Instance.new("Frame")
 
 		TitleFrame.Name = "TitleFrame"
 		TitleFrame.Parent = NotiFrame
-		TitleFrame.BackgroundColor3 = Color3.fromRGB(35,35,35)
+		TitleFrame.BackgroundColor3 = Color3.fromRGB(39,168,162)
 		TitleFrame.Size = UDim2.new(0, 0, 0, 0)
 
 		local Main_UiStroke = Instance.new("UIStroke")
