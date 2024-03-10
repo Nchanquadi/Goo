@@ -13317,7 +13317,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.787, 0,-0.03, 0)
 TextLabel.Size = UDim2.new(0.258796811, 0, 0.0200803205, 0)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Thanh JD HUB"
+TextLabel.Text = "ThanhJD HUB"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 29.000
 TextLabel.TextTransparency = 0.030
@@ -13355,8 +13355,8 @@ local RaityLevel = {"Mythical","Legendary","Rare","Uncommon",}
 local RaityColor =  {
     ["Uncommon"] = Color3.fromRGB(92, 140, 211),
     ["Rare"] =  Color3.fromRGB(140, 82, 255),
-    ["Legendary"] = Color3.fromRGB(213, 43, 228) ,
-    ["Mythical"] =  Color3.fromRGB(238, 47, 50) 
+    ["Legendary"] = Color3.fromRGB(25, 255, 224) ,
+    ["Mythical"] =  Color3.fromRGB(16, 217, 224) 
 }
 function GetRaity(color)
     for k,v in pairs(RaityColor) do 
@@ -13771,7 +13771,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.787, 0,-0.03, 0)
 TextLabel.Size = UDim2.new(0.258796811, 0, 0.0200803205, 0)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Thanh JD HUB"
+TextLabel.Text = "ThanhJD HUB"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 29.000
 TextLabel.TextTransparency = 0.030
@@ -13809,8 +13809,8 @@ local RaityLevel = {"Mythical","Legendary","Rare","Uncommon",}
 local RaityColor =  {
     ["Uncommon"] = Color3.fromRGB(92, 140, 211),
     ["Rare"] =  Color3.fromRGB(140, 82, 255),
-    ["Legendary"] = Color3.fromRGB(213, 43, 228) ,
-    ["Mythical"] =  Color3.fromRGB(238, 47, 50)
+    ["Legendary"] = Color3.fromRGB(25, 255, 224) ,
+    ["Mythical"] =  Color3.fromRGB(16, 217, 224)
 }
 function GetRaity(color)
     for k,v in pairs(RaityColor) do 
