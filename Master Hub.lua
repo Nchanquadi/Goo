@@ -1122,7 +1122,7 @@ OkayBtnTitle.BackgroundTransparency = 1.000
 OkayBtnTitle.Size = UDim2.new(0, 150, 0, 30)
 OkayBtnTitle.Text = "OK"
 OkayBtnTitle.Font = Enum.Font.Gotham
-OkayBtnTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+OkayBtnTitle.TextColor3 = Color3.fromRGB(6, 16, 158)
 OkayBtnTitle.TextSize = 22.000
 
 NotificationTitle.Name = "NotificationTitle"
@@ -1212,7 +1212,7 @@ end
  TextBtn.AutoButtonColor = false
  TextBtn.Font = Enum.Font.Gotham
  TextBtn.Text = text
- TextBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+ TextBtn.TextColor3 = Color3.fromRGB(6, 16, 158)
  TextBtn.TextSize = 12.000
  
  UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -1220,7 +1220,7 @@ end
  
  Black.Name = "Black"
  Black.Parent = Button
- Black.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ Black.BackgroundColor3 = Color3.fromRGB(6, 16, 158)
  Black.BackgroundTransparency = 1.000
  Black.BorderSizePixel = 0
  Black.Position = UDim2.new(0, 1, 0, 1)
@@ -1456,7 +1456,7 @@ end
  DropButton.Size = UDim2.new(0, 310, 0, 31)
  DropButton.Font = Enum.Font.SourceSans
  DropButton.Text = ""
- DropButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ DropButton.TextColor3 = Color3.fromRGB(6, 16, 158)
  DropButton.TextSize = 14.000
  
  for i,v in next,option do
@@ -2202,7 +2202,7 @@ end
  txtbtn.Size = UDim2.new(0, 310, 0, 29)
  txtbtn.Font = Enum.Font.SourceSans
  txtbtn.Text = ""
- txtbtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+ txtbtn.TextColor3 = Color3.fromRGB(6, 16, 158)
  txtbtn.TextSize = 14.000
  
  RealTextbox.Name = "RealTextbox"
@@ -4131,7 +4131,7 @@ end
                 inf.VelocityInheritance = 0
                 inf.ZOffset = 2
                 inf.Transparency = NumberSequence.new(0)
-                inf.Color = ColorSequence.new(Color3.fromRGB(0,0,0),Color3.fromRGB(0,0,0))
+                inf.Color = ColorSequence.new(Color3.fromRGB(6,16,158),Color3.fromRGB(6,16,158))
                 inf.Parent = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
             end
         else
