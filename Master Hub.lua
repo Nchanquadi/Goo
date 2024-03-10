@@ -529,7 +529,7 @@ local NotiFrame = Instance.new("Frame")
 		end
 		)
 	end 
-	DiscordLib:Notification("Thông Báo" , "cảm ơn bạn đã sử dụng hack của tôi" , 6 ,16576205534 )
+	DiscordLib:Notification("Thông Báo" , "Link Facebook Ở Phần Setting  1" , 6 ,16576205534 )
  local UserInputService = game:GetService("UserInputService")
  local TweenService = game:GetService("TweenService")
  
@@ -818,7 +818,7 @@ local NotiFrame = Instance.new("Frame")
  Hub.Size = UDim2.new(0, 81, 0, 27)
  Hub.Font = Enum.Font.Code
  Hub.Text = "Hub"
- Hub.TextColor3 = Color3.fromRGB(209, 185, 0)
+ Hub.TextColor3 = Color3.fromRGB(255, 47, 172)
  Hub.TextSize = 16.000
 
  
@@ -4270,7 +4270,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("ThanhJD ","")
+local Library = Update:Window("Master","")
 ------------------------------------------
 
 spawn(function()
@@ -13207,7 +13207,7 @@ ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.396834195, 0, 0.567307711, 0)
 ImageLabel.Size = UDim2.new(0, 107, 0, 82)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=16576205534"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=14487530170"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
 UICorner.CornerRadius = UDim.new(0, 15)
@@ -13317,7 +13317,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.787, 0,-0.03, 0)
 TextLabel.Size = UDim2.new(0.258796811, 0, 0.0200803205, 0)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "ThanhJD HUB"
+TextLabel.Text = "ThanhJB Hub"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 29.000
 TextLabel.TextTransparency = 0.030
@@ -13355,8 +13355,8 @@ local RaityLevel = {"Mythical","Legendary","Rare","Uncommon",}
 local RaityColor =  {
     ["Uncommon"] = Color3.fromRGB(92, 140, 211),
     ["Rare"] =  Color3.fromRGB(140, 82, 255),
-    ["Legendary"] = Color3.fromRGB(25, 255, 224) ,
-    ["Mythical"] =  Color3.fromRGB(16, 217, 224) 
+    ["Legendary"] = Color3.fromRGB(213, 43, 228) ,
+    ["Mythical"] =  Color3.fromRGB(238, 47, 50) 
 }
 function GetRaity(color)
     for k,v in pairs(RaityColor) do 
@@ -13666,7 +13666,7 @@ ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.345110148, 0, 0.503166199, 0)
 ImageLabel.Size = UDim2.new(0.188844323, 0, 0.176107258, 0)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=16576205534"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=14487530170"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
 UICorner.CornerRadius = UDim.new(0, 15)
@@ -13771,7 +13771,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.787, 0,-0.03, 0)
 TextLabel.Size = UDim2.new(0.258796811, 0, 0.0200803205, 0)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "ThanhJD HUB"
+TextLabel.Text = "ThanhJB Hub"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 29.000
 TextLabel.TextTransparency = 0.030
@@ -13809,8 +13809,8 @@ local RaityLevel = {"Mythical","Legendary","Rare","Uncommon",}
 local RaityColor =  {
     ["Uncommon"] = Color3.fromRGB(92, 140, 211),
     ["Rare"] =  Color3.fromRGB(140, 82, 255),
-    ["Legendary"] = Color3.fromRGB(25, 255, 224) ,
-    ["Mythical"] =  Color3.fromRGB(16, 217, 224)
+    ["Legendary"] = Color3.fromRGB(213, 43, 228) ,
+    ["Mythical"] =  Color3.fromRGB(238, 47, 50)
 }
 function GetRaity(color)
     for k,v in pairs(RaityColor) do 
@@ -14202,5 +14202,5 @@ local NotiFrame = Instance.new("Frame")
 		)
 	end  
 if  game.Players.LocalPlayer.Name == "JayceGuys019" or  game.Players.LocalPlayer.Name == "thanthanh878" then
-DiscordLib:Notification("Thông Báo" , "cảm ơn bạn đã sử dụng hack của tôi" , 13 ,16576205534)
+DiscordLib:Notification("Thông Báo" , "Cảm ơn bạn đã sử dụng hack của tôi" , 13 ,16576205534)
 end
