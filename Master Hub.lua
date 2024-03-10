@@ -587,7 +587,7 @@ local NotiFrame = Instance.new("Frame")
  end
  _G.BGColor_1 = Color3.fromRGB(30,30,30)
  _G.BGColor_2 = Color3.fromRGB(20, 20, 20)
- _G.Color = Color3.fromRGB(56,242,255
+ _G.Color = Color3.fromRGB(255, 49, 52)
  _G.WindowBackgroundColor = Color3.fromRGB(12,12,12)
  _G.BackgroundItemColor = Color3.fromRGB(20, 20, 20)
  _G.TabWindowColor = Color3.fromRGB(30, 30, 30)
@@ -810,15 +810,15 @@ local NotiFrame = Instance.new("Frame")
  Name.TextSize = 16.000
  
  local Hub = Instance.new("TextLabel")
- Hub.Name = "Hub"
+ Hub.Name = "Beta"
  Hub.Parent = Top
  Hub.BackgroundColor3 = Color3.fromRGB(224,224,224)
  Hub.BackgroundTransparency = 1.000
  Hub.Position = UDim2.new(0, 78, 0, 0)
  Hub.Size = UDim2.new(0, 81, 0, 27)
  Hub.Font = Enum.Font.Code
- Hub.Text = "beta"
- Hub.TextColor3 = Color3.fromRGB(24, 237, 102)
+ Hub.Text = "Hub"
+ Hub.TextColor3 = Color3.fromRGB(209, 185, 0)
  Hub.TextSize = 16.000
 
  
