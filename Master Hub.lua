@@ -529,8 +529,7 @@ local NotiFrame = Instance.new("Frame")
 		end
 		)
 	end 
-	DiscordLib:Notification("Thông Báo" , "Nhận Cày Thuê Bán Acc v4 Ae Nào Cần IB" , 6 ,11816162894 )
-	DiscordLib:Notification("Thông Báo" , "Link Facebook Ở Phần Setting  1" , 6 ,11816162894 )
+	DiscordLib:Notification("Thông Báo" , "cảm ơn bạn đã sử dụng hack của tôi" , 6 ,16576205534 )
  local UserInputService = game:GetService("UserInputService")
  local TweenService = game:GetService("TweenService")
  
@@ -4271,7 +4270,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("Master","")
+local Library = Update:Window("Thanh JD","")
 ------------------------------------------
 
 spawn(function()
@@ -4756,8 +4755,8 @@ Setting:Line()
 
 Setting:Button("Sao Chép Link Facebook",function()
  
- setclipboard("https://www.facebook.com/asukanaken")
-  DiscordLib:Notification("Thông Báo" , "Đã Sao Chép Link Facebook" , 10 ,11816162894 )
+ setclipboard("https://www.facebook.com/profile.php?id=61556116847117")
+  DiscordLib:Notification("Thông Báo" , "Đã Sao Chép Link Facebook" , 10 ,16576205534 )
  end)
 
 Setting:Seperator(" Setting ")
@@ -5595,7 +5594,7 @@ end)
 		end
 		)
 	end 
-      DiscordLib:Notification("Thông Báo" , "Bật Xong Sẽ Bị Đứng Máy 5-10 Giây" , 10 ,11816162894 )
+      DiscordLib:Notification("Thông Báo" , "Bật Xong Sẽ Bị Đứng Máy 5-10 Giây" , 10 ,16576205534 )
       wait(3)
          local decalsyeeted = true
 		local g = game
@@ -10295,7 +10294,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
-DiscordLib:Notification("Thông Báo" , "Hoàn Tất" , 10 ,11816162894 )
+DiscordLib:Notification("Thông Báo" , "Hoàn Tất" , 10 ,16576205534 )
 end)
 
 
@@ -11831,7 +11830,7 @@ local NotiFrame = Instance.new("Frame")
 		end
 		)
 	end 
-DiscordLib:Notification("Thông Báo" , "Nhân Phẩm Đã Lên 1000%" , 10 ,11816162894 )
+DiscordLib:Notification("Thông Báo" , "Nhân Phẩm Đã Lên 1000%" , 10 ,16576205534 )
   end)
  DevilFruit:Button("Quay Fruit",function()
   game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Cousin","Buy")
@@ -14203,5 +14202,5 @@ local NotiFrame = Instance.new("Frame")
 		)
 	end  
 if  game.Players.LocalPlayer.Name == "JayceGuys019" or  game.Players.LocalPlayer.Name == "thanthanh878" then
-DiscordLib:Notification("Thông Báo" , "cảm ơn bạn đã sử dụng hack của tôi" , 13 ,11816162894)
+DiscordLib:Notification("Thông Báo" , "cảm ơn bạn đã sử dụng hack của tôi" , 13 ,16576205534)
 end
