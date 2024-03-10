@@ -4270,7 +4270,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("ThanhJD","")
+local Library = Update:Window("ThanhJD ","")
 ------------------------------------------
 
 spawn(function()
